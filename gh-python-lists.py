@@ -3,6 +3,7 @@
 # 1. Fill in the missing code to produce the output: ['honda', 'yamaha', 'suzuki', 'kawasaki']
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 #<<insert your missing code here>>
+motorcycles = ['honda', 'yamaha', 'suzuki', 'kawasaki']
 print(motorcycles)
 
 
@@ -16,7 +17,9 @@ print(my_list)
 list1 = [3,6,99,12]
 list2 = [64,45,29,34]
 #<<Insert your code here>>
-target_list = [] # comment out this line 
+target_list = list1 + list2 #(did this in class)
+target_list.remove(12)
+target_list.remove(64)
 print(target_list)
 
 # Try it yourself exercise
